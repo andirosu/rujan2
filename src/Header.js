@@ -49,7 +49,7 @@ const HeaderMenu = (logos) => {
                     </Grid>
                     <Grid item xs={8} md={4}>
                         <Item className={"contacts contacts-menu"}>
-                            <a href="tel:0723395545" className="link link-phone">0723395545</a>
+                            <a href="tel:0723198951" className="link link-phone">0723198951</a>
                         </Item>
                         <Grid container="true"
                               direction="row"
@@ -60,7 +60,7 @@ const HeaderMenu = (logos) => {
                                 <Item><span  className="menuItem" data-section="acasa" onClick={handleClickScroll}>Acasa</span></Item>
                             </Grid>
                             <Grid item>
-                                <Item><span data-section="tarife" className="menuItem" onClick={handleClickScroll}>Tarife</span></Item>
+                                <Item><span data-section="tarife" className="menuItem" onClick={handleClickScroll}>Servicii</span></Item>
                             </Grid>
                             <Grid item>
                                 <Item><span  data-section="contact" className="menuItem" onClick={handleClickScroll}>Contact</span></Item>
@@ -70,9 +70,8 @@ const HeaderMenu = (logos) => {
                     </Grid>
                     <Grid item xs={4} md={4} className='hidden-mobile'>
                         <Item className={"contacts"}>
-                            <a href="tel:0723395545" className="link link-phone">0723395545</a>
-                            <span className="link link-schedule">Luni - Sambata: 09:30 – 18:00</span>
-                            <span className="link link-schedule">Duminica: 11:00 – 14:00</span>
+                            <a href="tel:0723198951" className="link link-phone">0723198951</a>
+                            <span className="link link-schedule">Program <strong>NON-STOP</strong></span>
                         </Item>
                     </Grid>
                 </Grid>

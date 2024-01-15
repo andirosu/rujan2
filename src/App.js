@@ -19,7 +19,6 @@ const Footer = () => (
                 <Grid xs={12} md={2} item>
                     <Item>
                         <h4><Phone fontSize="large"/> Telefon</h4>
-                        <Link href="tel:0723395545">0723 395 545</Link>
                         <Link href="tel:0723198951">0723 198 951</Link>
 
                     </Item>
@@ -28,8 +27,8 @@ const Footer = () => (
                     <Item>
                         <h4><LocalHospital fontSize="large"/> Adresa</h4>
                         <p>
-                            Bulevardul 1 Mai 309
-                            Berceni 077020
+                            Strada Luica 40,
+                            Bucuresti, Sector 4
                             România
                         </p>
                     </Item>
@@ -37,17 +36,15 @@ const Footer = () => (
                 <Grid xs={12} md={2} item>
                     <Item>
                         <h4><PunchClock fontSize="large"/> Program</h4>
-                        <p>Luni-Vineri: &nbsp;09:30–18:00</p>
-                        <p>Sâmbata:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30–18:00</p>
-                        <p>Duminica:&nbsp;&nbsp; &nbsp;11:00–14:00</p>
+                        <p>Program: &nbsp;<strong>NON-STOP</strong></p>
                     </Item>
                 </Grid>
                 <Grid xs={12} md={2} item>
                     <Item>
                         <h4><Info fontSize="large"/> Informatii</h4>
-                        <p>RujanVet SRL</p>
-                        <p>Cod Fiscal: 44289629</p>
-                        <p>J40/8711/2021</p>
+                        <p>RUJANVET LUICA SRL</p>
+                        <p>Cod Fiscal: 49055734</p>
+                        <p>J40/20803/2023</p>
 
                     </Item>
                 </Grid>
@@ -57,7 +54,7 @@ const Footer = () => (
             <Grid container alignItems="center" justifyContent="center" gap="30px" padding="15px" maxWidth="lg" style={{margin: "0 auto",fontSize:"12px"}}>
                 <Grid item>
                     <Item>
-                        <span>© {new Date().getFullYear()} RujanVet SRL. Toate drepturile rezervate. </span>
+                        <span>© {new Date().getFullYear()} RUJANVET LUICA SRL. Toate drepturile rezervate. </span>
                     </Item>
                 </Grid>
                 <Grid item className={'footer-separator'}>
@@ -76,7 +73,7 @@ const Footer = () => (
 )
 const Acasa = () => (
     <div className="acasa" itemID={'acasa'}>
-        <h1>Dacă sunteți în căutarea unui cabinet veterinar de încredere în Berceni, suntem aici să vă ajutăm!</h1>
+        <h1>Dacă sunteți în căutarea unui cabinet veterinar de încredere în sectorul 4, suntem aici să vă ajutăm!</h1>
         <p>La cabinetul nostru veterinar, oferim o gamă largă de <strong>servicii medicale pentru
             animalele de companie</strong>, inclusiv îngrijire preventivă, intervenții medicale complexe, cosmetica și farmacie veterinară. Cu o echipă de medici veterinari cu experiență și un
             personal
@@ -101,10 +98,10 @@ const Contact = () => (
         <p>În pet-shop-ul nostru, puteți găsi o gamă largă de produse pentru animale de companie, inclusiv alimente de înaltă calitate, jucării și accesorii pentru animale de companie. De asemenea,
             suntem pregătiți să vă oferim sfaturi și recomandări pentru alegerea celor mai bune produse pentru animalele dumneavoastră de companie.</p>
 
-        <p>La cabinetul nostru veterinar din Berceni, suntem dedicați să oferim cele mai bune servicii pentru animalele de companie și proprietarii acestora. Pentru programări sau mai multe informații
+        <p>La cabinetul nostru veterinar din strada Luica, sector 4, suntem dedicați să oferim cele mai bune servicii pentru animalele de companie și proprietarii acestora. Pentru programări sau mai multe informații
             despre serviciile noastre, vă rugăm să ne contactați.</p>
         <iframe title={"map"}
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1427.6573880343024!2d26.189571!3d44.303479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ae03abc6d0b3df%3A0xc25d96fdd9420f03!2sRujanVet!5e0!3m2!1sen!2sro!4v1682768167338!5m2!1sen!2sro"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.6925999236173!2d26.094505276785814!3d44.377902405258226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff809eec34f1%3A0xfe63c25cb73154dc!2sCabinet%20Veterinar%20NON%20STOP%20%E2%80%94%20Sector%204%20RujanVet%20Luic%C4%83!5e0!3m2!1sro!2sro!4v1705309322467!5m2!1sro!2sro"
                 width="100%" height="600" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
     </div>
 );
@@ -139,7 +136,7 @@ function App() {
                 </section>
                 <Separator/>
                 <section>
-                    <GoogleReviews placeId={"ChIJ37PQxqsDrkARAw9C2f2WXcI"} apiKey={"AIzaSyBnE895PwMd-ufYsM4-8d92OtqtmrLE8GI"}/>
+                    <GoogleReviews placeId={"ChIJ8TTsnoD_sUAR3FQxt1zCY_4"} apiKey={"AIzaSyBnE895PwMd-ufYsM4-8d92OtqtmrLE8GI"}/>
                 </section>
                 <Separator/>
             </Container>
