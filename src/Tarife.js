@@ -19,7 +19,7 @@ export default function Tarife() {
                     }
                 }
                 const response = await fetch(
-                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQHKa4JtNVRM8vBefAddWRiZWxakSdle3fvJVSKJdhRBW-GtPMtzhRyPQwXGVocnKmxFtz6y0rRNFS3/pub?gid=0&single=true&output=tsv"
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQHKa4JtNVRM8vBefAddWRiZWxakSdle3fvJVSKJdhRBW-GtPMtzhRyPQwXGVocnKmxFtz6y0rRNFS3/pub?gid=1606463573&single=true&output=tsv"
                 );
                 const text = await response.text();
                 const rows = text.split("\n").map((row) => row.split("\t"));

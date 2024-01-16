@@ -46,14 +46,14 @@ const BadgeSlider = () => {
                             </h1>
                         </Item>
                     </li>
-                    <li className="splide__slide">
-                        <Item className={"badge"}>
-                            <ContentCutIcon fontSize={"large"} htmlColor={"#eb5160ff"}/>{" "}
-                            <h1 className={"swot"}>
-                                frizerie<br/> canina
-                            </h1>
-                        </Item>
-                    </li>
+                    {/*<li className="splide__slide">*/}
+                    {/*    <Item className={"badge"}>*/}
+                    {/*        <ContentCutIcon fontSize={"large"} htmlColor={"#eb5160ff"}/>{" "}*/}
+                    {/*        <h1 className={"swot"}>*/}
+                    {/*            frizerie<br/> canina*/}
+                    {/*        </h1>*/}
+                    {/*    </Item>*/}
+                    {/*</li>*/}
                     <li className="splide__slide">
                         <Item className={"badge"}>
                             <BiotechIcon fontSize={"large"} htmlColor={"#f49025"}/>{" "}
